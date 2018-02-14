@@ -6,6 +6,7 @@
 *.tmp
 *~
 .tmp_versions
+/replay.bin
 /rootfs_overlay/etc/init.d/S99
 Module.symvers
 README.html
