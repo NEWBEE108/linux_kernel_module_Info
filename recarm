@@ -15,7 +15,7 @@ time \
 -append 'root=/dev/sda nokaslr norandmaps printk.devkmsg=on printk.time=y - lkmc_eval=\"/rand_check.out;wget -S google.com;/poweroff.out;\"' \
 -kernel ./buildroot/output.arm~/images/zImage \
 -dtb ./buildroot/output.arm~/images/versatile-pb.dtb \
--nographic \
+-serial stdio \
 \
 -initrd ./buildroot/output.arm~/images/rootfs.cpio \
 \
